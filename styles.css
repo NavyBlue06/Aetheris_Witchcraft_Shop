@@ -1,8 +1,23 @@
 /* Global Styles */
 body {
   font-family: 'Georgia', serif;
-  margin: 0;
-  padding: 0;
   background-color: #1C1C1C;
   color: #EDE0C8;
 }
+
+/*Navbar Styles*/
+.navbar {
+ background-color: #3E2C26;
+}
+.navbar-brand {
+    font-size:1.5rem;
+    font-weight: bold;
+    color: #EDE0C8;
+}
+.navbar-nav .nav-link {
+  color: #EDE0C8;
+}
+.navbar-nav .nav-link:hover {
+  color: #D1B999;
+}
+
