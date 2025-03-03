@@ -21,3 +21,62 @@ body {
   color: #D1B999;
 }
 
+/*hero section*/
+.hero {
+  background: url('https://unsplash.com/photos/girl-holding-lighted-sparkler-while-reading-book-ki3b9EFuTUc') no-repeat center center/cover;
+  padding: 120px 20px;
+  text-align: center;
+  color: #EDE0C8;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  color:#D1B999;
+}
+.hero p {
+  font-size: 1.5rem;
+  color:#EDE0C8;
+}
+.hero .btn {
+  background-color: #7C4F43 ;
+  border:none;
+  color: #EDE0C8;
+  font-size: 1rem;
+  padding: 12px 24px;
+  transition:0.3s;
+}
+.hero .btn:hover {
+  background-color: #6A7A56;
+  color: #EDE0C8;
+}
+/*Product Section*/
+.card {
+  background-color: #3E2C26;
+  color: #EDE0C8;
+  border:none;
+  transition: 0.3s;
+}
+.card:hover {
+  transform:scale(1.05);
+}
+/*
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+*/
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.card-text {
+  font-size: 1rem;
+}
+.card .btn {
+    background-color: #7C4F43;
+    color: #EDE0C8;
+}
+.card .btn:hover {
+    background-color: #6A7A56;
+    color: #EDE0C8;
+}
