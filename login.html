@@ -6,42 +6,68 @@
     <title>Login - Aetheris' Enchanted Portal</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
-<body class="d-flex align-items-center justify-content-center vh-100">
+<body>
 
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-4">
-            <div class="card shadow-lg p-4">
-                <h3 class="text-center">Login</h3>
-                <form>
-                    <div class="mb-3">
-                        <label class="form-label">Email Address</label>
-                        <input type="email" class="form-control" placeholder="Enter your email">
-                    </div>
+<!-- Navbar -->
+<header class="bg-dark">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="login.html">Aetheris Witchcraft</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="login.html">Login</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="checkout.html">🛒 Cart <span class="badge bg-warning" id="cart-count">0</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
 
-                    <div class="mb-3">
-                        <label class="form-label">Password</label>
-                        <input type="password" class="form-control" placeholder="Enter your password">
-                    </div>
-
-                    <div class="mb-3 d-flex justify-content-between">
-                        <div>
-                            <input type="checkbox" id="remember">
-                            <label for="remember">Remember me</label>
+<!-- Centered Login Form -->
+<main class="d-flex align-items-center justify-content-center" style="height: 90vh;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card shadow-lg p-4 border-0">
+                    <h3 class="text-center">Login</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-control" placeholder="Enter your email">
                         </div>
-                        <a href="#" class="text-decoration-none">Forgot password?</a>
-                    </div>
 
-                    <button type="submit" class="btn btn-primary w-100">Login</button>
-                </form>
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="Enter your password">
+                        </div>
 
-                <p class="text-center mt-3">
-                    Don't have an account? <a href="#" class="text-decoration-none">Sign Up</a>
-                </p>
+                        <div class="mb-3 d-flex justify-content-between">
+                            <div>
+                                <input type="checkbox" id="remember">
+                                <label for="remember">Remember me</label>
+                            </div>
+                            <a href="#" class="text-decoration-none">Forgot password?</a>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">Login</button>
+                    </form>
+
+                    <p class="text-center mt-3">
+                        Don't have an account? <a href="register.html" class="text-decoration-none">Sign Up</a>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</main>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
