@@ -1,0 +1,36 @@
+
+/* Background and Text Colors */
+body {
+    background-color: #121212; /* Dark theme */
+    color: #EDE0C8;
+}
+
+/* Service Cards */
+.card {
+    background-color: #222;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 300px; /* Make sure images are uniform */
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Buttons */
+.btn-warning {
+    background-color: #ffcc00;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #ffdd44;
+}
